@@ -16,11 +16,12 @@ Step 1:
      
 Step 2:
    * initialise your project
-       - mkdir  mern-auth    (create a directory)
-       - cd mern-auth        (change to the directory)
-       - npm init            (init your project -- this will walk you through the creation of the package.json file. you could accpet  
-                              the defaults values initially; changing the "index.js" to "server.js")
-                                   
+   ``` bash
+       mkdir  mern-auth    (create a directory)
+       cd mern-auth        (change to the directory)
+       npm init            
+   ```
+ (init your project -- this will walk you through the creation of the package.json file. you could accpet                                the defaults values initially; changing the "index.js" to "server.js")                                  
                                    
  Once completed, your folder will have the package.json file which you can open in VS.
      
