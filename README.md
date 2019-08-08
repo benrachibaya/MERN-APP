@@ -28,14 +28,14 @@ Step 2:
 Step 3:
    * Install the following dependencies 
    ``` bash
-        - npm i bcryptjs body-parser  concurrently  express is-empty jsonwebtoken mongoose passport passport-jwt validator
+    npm i bcryptjs body-parser  concurrently  express is-empty jsonwebtoken mongoose passport passport-jwt validator
    ```
         
 The installed packages:
-   * body-parser: will be used to parse incoming request bodies in the middleware
-   * bcryptjs: will be used to hash inputted passwords before storing these in the database
-   * concurrently: will allow us to run the backend and the frontend concurrently on different ports
-   * express: sits on top of Node to make the routing, request handling and responding easier to code
+   * [body-parser](https://www.npmjs.com/package/body-parser): will be used to parse incoming request bodies in the middleware
+   * [bcryptjs](): will be used to hash inputted passwords before storing these in the database
+   * [concurrently](): will allow us to run the backend and the frontend concurrently on different ports
+   * [express](https://www.npmjs.com/package/express): sits on top of Node to make the routing, request handling and responding easier to code
    * is-empty: handy global function to use with validator
    * jsonwebtoken: used for the authorization process
    * mongoose: used to interact with our database MongoDB
