@@ -33,15 +33,15 @@ Step 3:
         
 The installed packages:
    * [body-parser](https://www.npmjs.com/package/body-parser): will be used to parse incoming request bodies in the middleware
-   * [bcryptjs](): will be used to hash inputted passwords before storing these in the database
-   * [concurrently](): will allow us to run the backend and the frontend concurrently on different ports
+   * [bcryptjs](https://www.npmjs.com/package/bcrypt): will be used to hash inputted passwords before storing these in the database
+   * [concurrently](https://www.npmjs.com/package/concurrently): will allow us to run the backend and the frontend concurrently on different ports
    * [express](https://www.npmjs.com/package/express): sits on top of Node to make the routing, request handling and responding easier to code
-   * is-empty: handy global function to use with validator
-   * jsonwebtoken: used for the authorization process
-   * mongoose: used to interact with our database MongoDB
-   * passport: used to authenticate requests, done through an extensible set of plugins known as strategies
-   * passwort-jwt:  passport strategy for authenticating using a JSON Web Token (JWT); It allow you to authenticate endpoints call using a JWT
-   * validator: will be used to validate user inputs 
+   * [is-empty](https://www.npmjs.com/package/is-empty): handy global function to use with validator
+   * [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken): used for the authorization process
+   *[mongoose](https://www.npmjs.com/package/mongoose): used to interact with our database MongoDB
+   * [passport](https://www.npmjs.com/package/passport): used to authenticate requests, done through an extensible set of plugins known as strategies
+   * [passwort-jwt](https://www.npmjs.com/package/passport-jwt):  passport strategy for authenticating using a JSON Web Token (JWT); It allow you to authenticate endpoints call using a JWT
+   * [validator](https://www.npmjs.com/package/validator): will be used to validate user inputs 
        
 Step 4: Setting the database
    
