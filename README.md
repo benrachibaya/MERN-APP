@@ -26,8 +26,10 @@ Step 2:
  Once completed, your folder will have the package.json file which you can open in VS.
      
 Step 3:
-   * Install the following dependencies  using the command:
+   * Install the following dependencies 
+   ``` bash
         - npm i bcryptjs body-parser  concurrently  express is-empty jsonwebtoken mongoose passport passport-jwt validator
+   ```
         
 The installed packages:
    * body-parser: will be used to parse incoming request bodies in the middleware
