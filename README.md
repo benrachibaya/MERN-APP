@@ -1,6 +1,8 @@
 # MERN-APP
 Creating a full-stack Login/authorization app using the MERN stack (MongoDB for the database, Express and Node for the backend and React for the Frontend)
 
+
+## BACKEND
 The app allow user to:
    * Register
    * Login
@@ -8,13 +10,13 @@ The app allow user to:
    * Stay logged in after closing the app or refreshing the page
    * Logout
   
-## Step 1:
+### Step 1:
    * Install VS code or any editor you like
    * Install latest Version of Node.js (I used npm or "Node package Manager" to install dependencies)
    * Install MongoDB
    * Install PostMan
      
-## Step 2:
+### Step 2:
    * initialise your project
    ``` bash
        mkdir  mern-auth    (create a directory)
@@ -25,7 +27,7 @@ The app allow user to:
                                    
  Once completed, your folder will have the package.json file which you can open in VS.
      
-## Step 3:
+### Step 3:
    * Install the following dependencies 
    ``` bash
     npm i bcryptjs body-parser  concurrently  express is-empty jsonwebtoken mongoose passport passport-jwt validator
@@ -43,21 +45,21 @@ The installed packages:
    * [passwort-jwt](https://www.npmjs.com/package/passport-jwt):  passport strategy for authenticating using a JSON Web Token (JWT); It allow you to authenticate endpoints call using a JWT
    * [validator](https://www.npmjs.com/package/validator): will be used to validate user inputs 
        
-## Step 4: Setting the database
+### Step 4: Setting the database
    
-## Step 5: Setting the server with Node.js and Express
+### Step 5: Setting the server with Node.js and Express
    
-## Step 6: Setting the database schema
+### Step 6: Setting the database schema
    *  Configuration: make sure that you add your own MongoURI from your mLab database in the config/keys.js file
    
-## Step 7: Setting the form validation
+### Step 7: Setting the form validation
    
-## Step 8: Setting up the API routes
+### Step 8: Setting up the API routes
    
-## Step 9: Testing the API routes with Postman
+### Step 9: Testing the API routes with Postman
        
        
-       
+## FRONT-END      
 
       
      
